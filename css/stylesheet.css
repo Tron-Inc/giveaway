@@ -28,6 +28,26 @@ html, body {
 	        
 	
 }
+.giveaway-grid {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+}		
+.giveaway-item {
+    background: #ffffff40;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+h1, h2 {
+    color: white;
+}
+p {
+    color: white;
+    font-size: 20px;
+}
 footer {
     background: #222;
     color: white;
@@ -40,4 +60,13 @@ footer {
     font-size: 20px;
     position: relative;	
     top: -31px;
+}
+@media screen and (max-width: 600px) {
+    .logo img {
+       width: 350px;
+	}
+    .copyright {
+       top: -29px;
+       font-size: 18px;
+       }
 }

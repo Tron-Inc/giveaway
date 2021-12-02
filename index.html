@@ -31,10 +31,25 @@
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 </head>
 <body class="weather clear">
+<center>
 	<div class="container">
 		<div class="logo">
-			<img id="tronmclogo" src="img/christmaslogo.png">
+			<br>
+			<img id="tronmclogo" src="https://tronmc.com/img/christmaslogo.png">
+			<h1 id="counter">Countdown Loading...</h1>
 	</div>
+	<br>
+	<div class="giveaway-grid">
+		<div class="giveaway-item">
+		<p>December 24th, 2021</p>
+		<hr>
+		<img src="https://i.redd.it/mtg4d4pajvi51.png" width="200px" height-"200px">
+		<p>Discord Nitro for a Month!<p>
+		<hr>
+		<p>Get actual Discord Nitro (not classic) for a month!</p>
+		</div>
+	</div>
+	</center>
 	<footer>
 	<center>
 		<p id="copyrightboi" class="copyright">&copy; 2021 Tron, Inc. All Rights Reserved.</p>
@@ -48,7 +63,7 @@
 <script>
 //Taken from TronMC's Maintenance Countdown
 // Set the date we're counting down to
-var countDownDate = new Date("December 24, 2021 13:00:00").getTime();
+var countDownDate = new Date("Dec 24, 2021 13:00:00").getTime();
 // Update the count down every 1 second
 var x = setInterval(function() {
 
@@ -65,12 +80,12 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="counter"
-  //document.getElementById("counter").innerHTML = minutes + "m " + seconds + "s ";
+  document.getElementById("counter").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
     
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    //document.getElementById("counter").innerHTML = "Maintenance has Begun!";
+    document.getElementById("counter").innerHTML = "Giveaway has begun!";
   }
 }, 1000);
 </script>
