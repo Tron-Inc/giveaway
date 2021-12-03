@@ -17,7 +17,6 @@ body {
 html, body {
 	width: 100vw;
 	height: 100vh;
-	overflow-x: hidden;
 	
 	display: -ms-flexbox;
 	-webkit-box-pack: center;
@@ -69,4 +68,14 @@ footer {
        top: -29px;
        font-size: 18px;
        }
+    .giveaway-grid {
+       grid-template-columns: 300px;
+}
+    footer {
+       max-width: 435px;
+       position:relative;bottom:0;left:0;right:0;height:10px;
+}
+    html, body {
+       overflow-x:hidden;
+       height: auto;
 }
