@@ -17,7 +17,6 @@ body {
 html, body {
 	width: 100vw;
 	height: 100vh;
-	overflow-x:hidden;
         height: auto;
 	
 	display: -ms-flexbox;
@@ -28,6 +27,10 @@ html, body {
 	    -ms-flex-align: center;
 	        
 	
+}
+html {
+     overflow-x:hidden;
+     scroll-behavior: smooth;
 }
 .giveaway-box {
     display: grid;
@@ -68,6 +71,7 @@ footer {
     font-size: 20px;
     position: relative;	
     top: -31px;
+    text-align: center;
 }
 .logo img {
     -webkit-animation-name: logo;
