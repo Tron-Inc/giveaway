@@ -8,10 +8,11 @@ body {
 	/*Hmm??? I wonder what that is?*/
 	background: linear-gradient(rgba(20, 26, 35,0.55),rgba(20, 26, 35, 0.55)),
 				url("snow.gif") no-repeat center center fixed;
-	background-size: cover;
+	background-size: 100% 50%;
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 	position: relative;
+    background-position: top;
 }
 
 html, body {
@@ -59,7 +60,6 @@ footer {
     color: white;
     padding: 20px 20px;
     position:relative;bottom:0;left:0;right:0;height:10px;
-}
 }
     html, body {
        overflow-x:hidden;
@@ -119,18 +119,23 @@ footer {
     .copyright {
        top: -12px;
        font-size: 18px;
-       }
+    }
     .giveaway-box {
        grid-template-columns: 350px;
-}
+    }
     footer {
        max-width: 435px;
        position:relative;bottom:0;left:0;right:0;height:10px;
-}
+    }
     p {
        margin: 0;
-}
+    }
     html, body {
        overflow-x:hidden;
        height: auto;
+    }
+    body {
+        background-size: cover;
+        background-position: unset;
+    }
 }
