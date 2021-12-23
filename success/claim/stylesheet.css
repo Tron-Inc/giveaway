@@ -7,18 +7,16 @@ body {
 	/*- .-. --- -. -- -.-. .-.-.- -.-. --- -- -..-. -.- --- .-. -... ... .-.-.- .... - -- .-..*/
 	/*Hmm??? I wonder what that is?*/
 	background: linear-gradient(rgba(20, 26, 35,0.55),rgba(20, 26, 35, 0.55)),
-				url("snow.gif") no-repeat center center fixed;
-	background-size: 100% 50%;
+				url("https://tronmc.com/img/festivelobby.png") no-repeat center center fixed;
+	background-size: cover;
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 	position: relative;
-    background-position: top;
 }
 
 html, body {
 	width: 100vw;
 	height: 100vh;
-        height: auto;
 	
 	display: -ms-flexbox;
 	-webkit-box-pack: center;
@@ -29,41 +27,24 @@ html, body {
 	        
 	
 }
-html {
-     overflow-x:hidden;
-     scroll-behavior: smooth;
-}
-.giveaway-box {
-    display: grid;
-    grid-template-columns: 2000px;
-    grid-gap: 20px;
-    justify-content: center;
-    align-content: center;
-}		
-.giveaway-terms {
-    background: #ffffff;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-}
 h1, h2 {
     color: white;
 }
 p {
-    color: black;
+    color: white;
     font-size: 18px;
-    margin-left: 600px;
-    margin-right: 600px;
 }
+a { 
+    color: inherit;
+}
+.success {
+    font-size: 100px;
+} 
 footer {
     background: #222;
     color: white;
     padding: 20px 20px;
-    position:relative;bottom:0;left:0;right:0;height:10px;
-}
-    html, body {
-       height: auto;
-       overflow-x: hidden;
+    position:fixed;bottom:0;left:0;right:0;height:10px;
 }
 .copyright {
     font-weight: bold;
@@ -71,7 +52,6 @@ footer {
     font-size: 20px;
     position: relative;	
     top: -31px;
-    text-align: center;
 }
 .logo img {
     -webkit-animation-name: logo;
@@ -116,26 +96,18 @@ footer {
     .logo img {
        width: 350px;
 	}
+    .success {
+       font-size: 40px;
+       }
     .copyright {
-       top: -12px;
+       top: -29px;
        font-size: 18px;
-    }
-    .giveaway-box {
-       grid-template-columns: 350px;
-    }
+       }
     footer {
        max-width: 435px;
-       position:relative;bottom:0;left:0;right:0;height:10px;
-    }
-    p {
-       margin: 0;
-    }
+       position:fixed;bottom:0;left:0;right:0;height:10px;
+}
     html, body {
        overflow-x:hidden;
        height: auto;
-    }
-    body {
-        background-size: cover;
-        background-position: unset;
-    }
 }
