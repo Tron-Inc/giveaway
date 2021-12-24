@@ -52,18 +52,18 @@
 		<div class="giveaway-item">
 		<p>December 23rd, 2021</p>
 		<hr>
-		<img src="https://cdn.tronmc.com/img/netherite_ingots.png" width="200px">
+		<img id="winner" src="https://cdn.discordapp.com/avatars/527267036959866892/41f45f31b615a97d0a5b6e0cf0708994.png?size=1024" width="200px">
 		<p>A Netherite Ingot!<p>
 		<hr>
-		<p>Get a netherite ingot to start your Season 3 early!</p>
+		<p id="winnername">Winner was: <a href="https://discord.com/users/527267036959866892"><strong>xxfat dubsxx!</strong></a></p>
 		</div>
 		<div class="giveaway-item">
 		<p>December 24th, 2021</p>
 		<hr>
-		<img src="https://cdn.tronmc.com/img/nitro_classic.png" width="200px">
+		<img id="winner" src="https://cdn.discordapp.com/avatars/744242080070762607/b77b750a9ac473eada91b850583ef888.png?size=1024" width="200px">
 		<p>Nitro Classic!<p>
 		<hr>
-		<p>Get one month of Nitro Classic! pretty gamer!</p>
+		<p id="winnername">Winner was: <a href="https://discord.com/users/744242080070762607"><strong>Jayden Mcfart Doodoo Gonzalez!</strong></a></p>
 		</div>
 	</div>
 	</center>
@@ -80,7 +80,7 @@
 <script>
 //Taken from TronMC's Maintenance Countdown
 // Set the date we're counting down to
-var countDownDate = new Date("Dec 23, 2021 13:00:00").getTime();
+var countDownDate = new Date("Dec 24, 2021 13:00:00").getTime();
 // Update the count down every 1 second
 var x = setInterval(function() {
 
@@ -102,7 +102,7 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("counter").innerHTML = "Giveaway has begun!";
+    document.getElementById("counter").innerHTML = "Giveaway has ended!";
   }
 }, 1000);
 </script>
