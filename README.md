@@ -5,4 +5,5 @@ My little giveaway site I used to give away Discord Nitro!
 
 
 ##### NOTE: THIS REPOISTORY IS READ-ONLY UNTIL NEXT YEAR...maybe??
-###### © 2021 Tron, Inc. All Rights Reserved.
+###### © TronMC 2022. All Rights Reserved.
+###### TronMC is not in any way affiliated with Mojang Studios or Microsoft.
