@@ -55,24 +55,37 @@ p {
     margin-left: 600px;
     margin-right: 600px;
 }
+.copyrightaff {
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+	position: relative;
+	top: -16px;
+}
+
+.copyright {
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	margin-top: -31px;
+	margin-left: 0px;
+	margin-right: 0px;	
+}
+
 footer {
-    background: #222;
-    color: white;
-    padding: 20px 20px;
-    position:relative;bottom:0;left:0;right:0;height:10px;
+	background: #222;
+	color: white;
+	padding: 43px 20px;
+	position:relative;bottom:0;left:0;right:0;height:30px;
+	text-align: center;
 }
     html, body {
        height: auto;
        overflow-x: hidden;
 }
-.copyright {
-    font-weight: bold;
-    color: white;
-    font-size: 20px;
-    position: relative;	
-    top: -31px;
-    text-align: center;
-}
+
 .logo img {
     -webkit-animation-name: logo;
     animation-name: logo;
@@ -119,6 +132,10 @@ footer {
     .copyright {
        top: -12px;
        font-size: 18px;
+    }
+    .copyrightaff {
+       top: 0px;
+       font-size: 12px;
     }
     .giveaway-box {
        grid-template-columns: 350px;
